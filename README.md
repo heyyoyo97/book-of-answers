@@ -1,3 +1,47 @@
+# 答案之书 (Book of Answers)
+
+一个交互式的网页应用，模拟翻书动画并显示随机答案。
+
+## 项目版本
+
+本项目有两个版本：
+
+1. **主分支 (main)**: 使用 React + Next.js + Tailwind CSS 实现的现代版本
+   - 使用了现代前端技术栈
+   - 包含了更多动画效果和交互
+   - 响应式设计
+
+2. **原始版本 (vanilla-js)**: 使用原生 HTML + CSS + JavaScript 实现的版本
+   - 代码更简单直观
+   - 无需构建工具
+   - 可以直接在浏览器中运行
+
+原始版本的代码也可以在 `original-code-backup.md` 文件中找到。
+
+## 如何运行
+
+### React 版本 (main 分支)
+
+```bash
+# 安装依赖
+npm install
+
+# 启动开发服务器
+npm run dev
+```
+
+### 原生版本 (vanilla-js 分支)
+
+直接在浏览器中打开 `index.html` 文件即可。
+
+## 功能特点
+
+- 3D 翻书动画效果
+- 渐变色页面
+- 答案渐显动画
+- 完全响应式设计
+- 支持移动端触控
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
